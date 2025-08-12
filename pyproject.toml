@@ -1,19 +1,18 @@
-
 [project]
 name = "example-pyproject"
 version = "0.0.1a1"
-license = "MIT"
-license-files = ["LICENSE.txt"]
-authors = [{name = "Venkatesh Kolluru", email = "vk0046@uah.edu"}]
-maintainers = [
-  {name = "john", email = "jim.john@alaska.edu"},
+license = { text = "MIT" }
+authors = [
+  { name = "Venkatesh Kolluru", email = "vk0046@uah.edu" }
 ]
-[build-system]
-build-backend = "setuptools.build_meta"
-requires = [
-    "setuptools",
+maintainers = [
+  { name = "john", email = "jim.john@alaska.edu" }
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "numpy >= 1.25",
+  "numpy >= 1.25"
 ]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
