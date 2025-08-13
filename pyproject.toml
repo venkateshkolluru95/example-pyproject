@@ -13,8 +13,12 @@ dependencies = [
   "numpy >= 1.25"
 ]
 
-docs = ["mkdocs-material"]
+
 
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project optional-dependencies]
+examples = ["jupyter","matplotlib","scikit-image[data]"]
+docs = ["mkdocs-material",]
