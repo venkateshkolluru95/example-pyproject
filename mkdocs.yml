@@ -1,0 +1,4 @@
+site_name: URSSI Package Documentation
+site url: "https://github.com/venkateshkolluru95/URSSI_2025Aug_first_PR"
+theme:
+	name:material
